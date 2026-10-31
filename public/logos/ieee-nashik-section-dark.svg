@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 44" width="240" height="44">
+  <defs>
+    <linearGradient id="ieeeBlueGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0084CA"/>
+      <stop offset="100%" stop-color="#00629B"/>
+    </linearGradient>
+    <filter id="subtleGlowDark" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#0084CA" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Outer Card Frame (Dark Glass) -->
+  <rect x="1" y="1" width="238" height="42" rx="5" fill="#0A111E" stroke="rgba(255,255,255,0.2)" stroke-width="1.2" filter="url(#subtleGlowDark)"/>
+  
+  <!-- Left IEEE Brand Blue Block -->
+  <path d="M 1 6 C 1 3.238 3.238 1 6 1 L 76 1 L 76 43 L 6 43 C 3.238 43 1 40.762 1 38 Z" fill="url(#ieeeBlueGradDark)"/>
+  
+  <!-- IEEE Official Wordmark in Left Block -->
+  <g fill="#FFFFFF" transform="translate(11, 13) scale(1.02)">
+    <!-- I -->
+    <rect x="0" y="0" width="3.2" height="17" fill="#FFFFFF"/>
+    <!-- E -->
+    <path d="M 5.8 0 L 15.5 0 L 15.5 3 L 9.1 3 L 9.1 6.8 L 14.6 6.8 L 14.6 9.8 L 9.1 9.8 L 9.1 14 L 15.5 14 L 15.5 17 L 5.8 17 Z" fill="#FFFFFF"/>
+    <!-- E -->
+    <path d="M 18 0 L 27.7 0 L 27.7 3 L 21.3 3 L 21.3 6.8 L 26.8 6.8 L 26.8 9.8 L 21.3 9.8 L 21.3 14 L 27.7 14 L 27.7 17 L 18 17 Z" fill="#FFFFFF"/>
+    <!-- E -->
+    <path d="M 30.2 0 L 39.9 0 L 39.9 3 L 33.5 3 L 33.5 6.8 L 39 6.8 L 39 9.8 L 33.5 9.8 L 33.5 14 L 39.9 14 L 39.9 17 L 30.2 17 Z" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Right Section: "Mumbai Section" Typography -->
+  <g transform="translate(86, 26.5)">
+    <text font-family="'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif" font-size="13.5" font-weight="800" fill="#FFFFFF" letter-spacing="-0.01em">
+      Mumbai Section
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+{
+  "name": "ieee-icetec-2027",
+  "version": "1.0.0",
+  "description": "IEEE International Conference on Emerging Technologies in Engineering & Computing (ICETEC 2027)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "ieee",
+    "icetec",
+    "conference",
+    "kkwieer"
+  ],
+  "author": "IEEE Mumbai Section & K. K. Wagh Institute of Engineering Education & Research",
+  "license": "MIT"
+}
