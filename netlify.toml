@@ -5,6 +5,28 @@
   from = "/committee"
   to = "/committee.html"
   status = 200
+  force = true
+
+[[redirects]]
+  from = "/committee/"
+  to = "/committee.html"
+  status = 200
+  force = true
+
+[[headers]]
+  for = "/committee"
+  [headers.values]
+    Content-Type = "text/html; charset=utf-8"
+
+[[headers]]
+  for = "/committee/"
+  [headers.values]
+    Content-Type = "text/html; charset=utf-8"
+
+[[headers]]
+  for = "/committee.html"
+  [headers.values]
+    Content-Type = "text/html; charset=utf-8"
 
 [[headers]]
   for = "/*"

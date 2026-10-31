@@ -21,7 +21,7 @@ const server = http.createServer((req, res) => {
   
   if (decodedUrl === '/' || decodedUrl === '') {
     decodedUrl = '/index.html';
-  } else if (decodedUrl === '/committee') {
+  } else if (decodedUrl === '/committee' || decodedUrl === '/committee/') {
     decodedUrl = '/committee.html';
   }
 

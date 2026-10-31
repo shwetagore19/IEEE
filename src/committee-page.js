@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return `
             <article class="committee-preview__card glass-card" style="display:flex; flex-direction:column; align-items:center; text-align:center;">
               <div class="committee-preview__avatar-wrap">
-                <img src="public/images/committee/${m.name}.jpg" alt="${m.name}" class="committee-preview__avatar-img" loading="lazy" onerror="if(this.src.endsWith('.jpg')){this.src=this.src.replace('.jpg','.png');}else if(this.src.endsWith('.png')){this.src=this.src.replace('.png','.jpeg');}else if(this.src.endsWith('.jpeg')){this.src=this.src.replace('.jpeg','.webp');}else{this.style.display='none'; this.nextElementSibling.style.display='flex';}">
+                <img src="/public/images/committee/${m.name}.jpg" alt="${m.name}" class="committee-preview__avatar-img" loading="lazy" onerror="if(this.src.endsWith('.jpg')){this.src=this.src.replace('.jpg','.png');}else if(this.src.endsWith('.png')){this.src=this.src.replace('.png','.jpeg');}else if(this.src.endsWith('.jpeg')){this.src=this.src.replace('.jpeg','.webp');}else{this.style.display='none'; this.nextElementSibling.style.display='flex';}">
                 <div class="committee-preview__avatar-fallback" style="display:none;" aria-hidden="true">${initials}</div>
               </div>
               ${m.role ? `<span class="committee-preview__tag" style="margin-bottom:8px;">${m.role}</span>` : ''}
