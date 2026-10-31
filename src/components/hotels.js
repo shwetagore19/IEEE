@@ -18,7 +18,7 @@ export function initHotels() {
     return `
     <article class="hotel-card glass-card" style="display:flex; flex-direction:column;">
       <div class="hotel-card__image-wrap" style="height: 200px; overflow: hidden; border-radius: 8px 8px 0 0; background: rgba(255,255,255,0.05); display: flex; align-items: center; justify-content: center;">
-        <img src="public/images/hotels/${safeName}.jpg" alt="${hotel.name}" class="hotel-card__image" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" onerror="${fallbackScript}">
+        <img src="/public/images/hotels/${safeName}.jpg" alt="${hotel.name}" class="hotel-card__image" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" onerror="${fallbackScript}">
       </div>
 
 

@@ -1,7 +1,7 @@
 export const hotelsData = [
   {
     name: "Courtyard by Marriott Nashik",
-    image: "public/images/hotels/marriott-nashik.jpg",
+    image: "/public/images/hotels/marriott-nashik.jpg",
     location: "Mumbai Naka / Renuka Nagar",
     address: "Near Mumbai Naka, Mumbai-Agra National Highway, Renuka Nagar, Nashik – 422001",
     distance: "~6 km from KKW Campus (12 mins drive)",
@@ -15,7 +15,7 @@ export const hotelsData = [
   },
   {
     name: "Radisson Blu Hotel & Spa, Nashik",
-    image: "public/images/hotels/radisson-blu.jpg",
+    image: "/public/images/hotels/radisson-blu.jpg",
     location: "Pathardi Phata",
     address: "Pathardi Phata, Mumbai-Agra Highway, Nashik – 422010",
     distance: "~11 km from KKW Campus (18 mins drive)",
@@ -29,7 +29,7 @@ export const hotelsData = [
   },
   {
     name: "The Gateway Hotel Ambad Nashik",
-    image: "public/images/hotels/gateway-taj.jpg",
+    image: "/public/images/hotels/gateway-taj.jpg",
     location: "MIDC Ambad",
     address: "P-17, MIDC Ambad, Mumbai-Agra Road, Nashik – 422010",
     distance: "~12 km from KKW Campus (20 mins drive)",
@@ -43,7 +43,7 @@ export const hotelsData = [
   },
   {
     name: "Express Inn The Business Luxury Hotel",
-    image: "public/images/hotels/express-inn.jpg",
+    image: "/public/images/hotels/express-inn.jpg",
     location: "Pathardi Phata",
     address: "Pathardi Phata, Mumbai-Agra National Highway, Nashik – 422010",
     distance: "~11 km from KKW Campus (18 mins drive)",
@@ -57,7 +57,7 @@ export const hotelsData = [
   },
   {
     name: "Hotel Grand Rio",
-    image: "public/images/hotels/hotel-grand-rio.jpg",
+    image: "/public/images/hotels/hotel-grand-rio.jpg",
     location: "Mumbai-Agra Highway / Rajiv Nagar",
     address: "Rajiv Nagar, Mumbai-Agra Highway, Nashik – 422009",
     distance: "~8 km from KKW Campus (15 mins drive)",
@@ -71,7 +71,7 @@ export const hotelsData = [
   },
   {
     name: "VITS Select Nashik",
-    image: "public/images/hotels/vits-select.jpg",
+    image: "/public/images/hotels/vits-select.jpg",
     location: "Ayodhya Nagari / Panchavati",
     address: "Ayodhya Nagari, Mumbai-Agra Highway, Panchavati, Nashik – 422003",
     distance: "~2.5 km from KKW Campus (5 mins drive)",
@@ -85,7 +85,7 @@ export const hotelsData = [
   },
   {
     name: "Hotel Panchavati Yatri",
-    image: "public/images/hotels/hotel-panchavati.jpg",
+    image: "/public/images/hotels/hotel-panchavati.jpg",
     location: "M.G. Road / Panchavati",
     address: "430, Vakil Wadi, M.G. Road, Near Panchavati, Nashik – 422001",
     distance: "~4.5 km from KKW Campus (10 mins drive)",
@@ -99,7 +99,7 @@ export const hotelsData = [
   },
   {
     name: "Treebo Prasha / Hotel Triton",
-    image: "public/images/hotels/Treebo Prasha Hotel Triton.jpg",
+    image: "/public/images/hotels/Treebo Prasha Hotel Triton.jpg",
     location: "Panchavati",
     address: "Near Amrutdham Flyover, Mumbai-Agra Highway, Panchavati, Nashik – 422003",
     distance: "~2.8 km from KKW Campus (6 mins drive)",
@@ -114,7 +114,7 @@ export const hotelsData = [
 
   {
     name: "Ibis Nashik",
-    image: "public/images/hotels/Ibis Nashik.jpg",
+    image: "/public/images/hotels/Ibis Nashik.jpg",
     location: "Trimbakeshwar Road",
     address: "Plot No 9, MIDC, Trimbakeshwar Road, Nashik 422007",
     distance: "~10 km from KKW Campus (16 mins drive)",
